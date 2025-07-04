@@ -45,6 +45,8 @@ function Hero() {
   );
 }
 
+
+
 function About() {
   return (
     <section style={{ backgroundColor: "#000" }} className="text-white py-5" id="about">
