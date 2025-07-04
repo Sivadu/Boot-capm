@@ -15,15 +15,24 @@ function App() {
 
 function Hero() {
   return (
-    <section className="hero"
-      style={{ backgroundImage: "url('/images/home2.jpg')" }}>
+    <section
+      className="hero"
+      style={{
+        backgroundImage: 'url("/images/home2.jpg")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        height: '100vh',
+        width: '100%',
+      }}
+    >
       <div className="hero-overlay">
         <div className="hero-content">
           <h1>2-Week Web Development Bootcamp for Kids</h1>
-          <h3>For ages under 18 – Build your first website in just 14 days!</h3>
+          <h3>Build your first website in just 14 days!</h3>
           <a
             href="https://forms.gle/8LD78NVWpM5Pg3jC9"
-            className="btn btn-light mt-3 fs-3git hero-button"
+            className="btn btn-light mt-3 hero-button"
           >
             Register Now
           </a>
@@ -32,6 +41,7 @@ function Hero() {
     </section>
   );
 }
+
 
 
 function About() {
