@@ -15,7 +15,8 @@ function App() {
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero"
+      style={{ backgroundImage: "url('/images/home2.jpg')" }}>
       <div className="hero-overlay">
         <div className="hero-content">
           <h1>2-Week Web Development Bootcamp for Kids</h1>
